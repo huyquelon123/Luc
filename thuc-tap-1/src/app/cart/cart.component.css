@@ -1,0 +1,73 @@
+.color-main {
+    color: #ffac4b
+}
+
+.text-link {
+    position: absolute;
+    color: #fff;
+    bottom: 80px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.text-link a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 10px;
+}
+
+.text-link a:hover {
+    color:#ffac4b;
+}
+
+.text-link .icon-arrow-left{
+    font-size: 10px;
+}
+
+.text-link span {
+    padding-left: 10px;
+    color: #ffac4b;
+}
+
+#cart .cart-heading {
+    font-size: 14px;
+    font-family: "MavenPro";
+    font-weight: 500;   
+}
+
+#cart .col-border {
+    border: solid 1px#ebebeb;
+    float: left;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+#cart .cart-infor .img {
+    width: 77px;
+}
+
+#cart .cart-infor .item{
+    height: 160px;
+    line-height: 160px;
+    font-size: 14px;
+}
+
+.cart-total {
+    float: right;
+    margin: 20px 0;
+}
+
+.checkout:hover a{
+    background-color: #000;
+    cursor: pointer;
+}
+
+.checkout a{
+    background-color: #ffac4b;
+    float: right;
+    padding: 12px 129px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}

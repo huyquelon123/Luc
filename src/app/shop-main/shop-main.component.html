@@ -1,0 +1,95 @@
+<div id="slider-main">
+    
+</div>
+
+<div id="shop-deal">
+    <div class="content-section">
+        <div class="row">
+            <div class="col col-3">
+                <img src="../../assets/img/shop-deal/deal1.jpg" alt="">
+            </div>
+            <div class="col col-3">
+                <img src="../../assets/img/shop-deal/deal2.jpg" alt="">
+            </div>
+            <div class="col col-3">
+                <img src="../../assets/img/shop-deal/deal3.jpg" alt="">
+            </div>
+        </div>
+        <div class="content-deal">      
+            <h2 class="heading-deal">DEAL HÔM NAY</h2>
+            <p class="desc-deal">Sản phẩm thời trang được khuyến mãi cực hot</p>
+        </div>
+    </div>
+</div>
+
+<div id="content">
+    <div class="bg-img">
+        <img src="../../assets/img/background/bg-1.jpg" alt="" style="width: 100%;">
+    </div>
+
+    <div class="content-section">
+        <h2>BỘ SƯU TẬP</h2>
+        <!-- begin: collection -->
+        <div class="collection">
+            <div class="row">
+                <div class="col col-4" *ngFor = "let p of product" >
+                    <div *ngIf = "(1 <= p.id && p.id <= 4)">
+                        <img src="{{ p.source }}" alt="" class = "collection-img">
+                        <div class="text-content">
+                            <h3 class="text-heading"><a>{{p.name}}</a></h3>
+                            <div class="text-price">{{p.price}}.000đ</div>
+                            <button class="btn-cart" (click) = addProductToCart(p.name,p.source,p.price,p.sex)><i class="icon-cart ti-shopping-cart"></i><span class="text-btn">Mua ngay</span></button>
+                        </div>
+                    </div>     
+                </div>
+            </div>  
+            
+            <div class="row">
+                <div class="col col-4" *ngFor = "let p of product" >
+                    <div *ngIf = "(5 <= p.id && p.id <= 8)">
+                        <img src="{{ p.source }}" alt="" class = "collection-img">
+                        <div class="text-content">
+                            <div class="text-content">
+                                <h3 class="text-heading"><a>{{p.name}}</a></h3>
+                                <div class="text-price">{{p.price}}.000đ</div>
+                                <button class="btn-cart" (click) = addProductToCart(p.name,p.source,p.price,p.sex)><i class="icon-cart ti-shopping-cart"></i><span class="text-btn">Mua ngay</span></button>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col col-4" *ngFor = "let p of product" >
+                    <div *ngIf = "(9 <= p.id && p.id <= 12)">
+                        <img src="{{ p.source }}" alt="" class = "collection-img">
+                        <div class="text-content">
+                            <div class="text-content">
+                                <h3 class="text-heading"><a>{{p.name}}</a></h3>
+                                <div class="text-price">{{p.price}}.000đ</div>
+                                <button class="btn-cart" (click) = addProductToCart(p.name,p.source,p.price,p.sex)><i class="icon-cart ti-shopping-cart"></i><span class="text-btn">Mua ngay</span></button>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col col-4" *ngFor = "let p of product" >
+                    <div *ngIf = "(13 <= p.id && p.id <= 16)">
+                        <img src="{{ p.source }}" alt="" class = "collection-img">
+                        <div class="text-content">
+                            <div class="text-content">
+                                <h3 class="text-heading"><a>{{p.name}}</a></h3>
+                                <div class="text-price">{{p.price}}.000đ</div>
+                                <button class="btn-cart" (click) = addProductToCart(p.name,p.source,p.price,p.sex)><i class="icon-cart ti-shopping-cart"></i><span class="text-btn">Mua ngay</span></button>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+        </div>
+        <!-- end: collection -->
+    </div>
+</div>

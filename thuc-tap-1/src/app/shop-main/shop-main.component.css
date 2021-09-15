@@ -1,0 +1,83 @@
+#slider-main {
+    padding-top: 42.8333333%;
+    background: url('../../assets/img/slider/slider_shop_main.jpg') top center / cover no-repeat;
+}
+
+#shop-deal {
+    margin-top: 30px;
+}
+
+#shop-deal .content-deal {
+    margin-top: 60px;
+    margin-bottom: 35px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#shop-deal .content-deal .desc-deal {
+    font-size: 15px;
+    letter-spacing: 2.2px;
+}
+
+#content {
+
+}
+
+#content .bg-img{
+    margin-bottom: 50px;
+}
+
+#content .collection {
+    margin-top: 30px;
+}
+
+#content .collection .collection-img {
+    width: 270px;
+    height: 330px;
+}
+
+#content .collection .text-content {
+    margin: 15px 0 45px;
+    text-align: center;
+}
+
+#content .collection .text-heading {   
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#content .collection .text-price {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#content .collection .btn-cart {
+    margin-top: 10px;
+    padding: 0 15px;
+    border: 2px solid #ebebeb;
+}
+
+#content .collection .btn-cart:hover {
+    background-color: #ffac4b;
+    border: 2px solid #ffac4b;
+    cursor: pointer;
+}
+
+#content .collection .icon-cart {
+    font-size: 25px;
+}
+
+#content .collection .text-btn {
+    font-size: 17px;
+    line-height: 38px;
+    padding-left: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
